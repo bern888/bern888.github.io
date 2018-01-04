@@ -81,9 +81,9 @@ i {
     -webkit-transform: rotate(-135deg);
 }
 #intro {
-	background:url(../images/background_artwork.png);
+	background:url(../images/background_artwork_test1.png);
 	background-size:cover;
 	background-repeat: no-repeat;
-	height: 97vh;
+	height: 90vh;
 	position: relative;
 }
