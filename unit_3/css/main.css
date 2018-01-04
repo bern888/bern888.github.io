@@ -1,44 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Mystery+Quest);
 * { margin:0; padding:0; box-sizing:border-box; }
 img {
 	width:300px;
 } /* delete this once you start sizing your images */
+
+
 header {
 	background:black;
 }
 header img {
-	width: 3em;
+	width: 1em;
 	display: inline-block;
 	vertical-align: bottom;
 }
 section {
 	padding:4em 0;
 }
+
 h1{
 	color: white;
 	display: inline-block;
+	font-family: 'Mystery Quest', cursive;
 }
 a{
 	text-decoration: none;
 }
 h2{
-	font-family: "Courier New", monospace;
+	font-family: Arial, sans-serif;
 	font-style: italic;
+	font-size: 18px;
+}
+
+h3{
+	font-family: 'Mystery Quest', cursive;
 	font-size: 18px;
 }
 ol {
 	padding-left:1.25em;
 }
-#third {
+#steps {
 	font-style: italic
 }
 p{
-	font-family: Arial, sans-serif;
+	font-family: palatino, georgia, serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
 	color: grey;
 }
 #intro {
 	background:url(../images/background_artwork.png);
 	background-size:cover;
 	background-repeat: no-repeat;
-	height: 85vh;
+	height: 125vh;
 	position: relative;
 }
