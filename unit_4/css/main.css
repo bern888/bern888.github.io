@@ -28,7 +28,7 @@ a{
 }
 h2{
 	font-family:'Barlow Condensed', serif;
-	font-size: 28px;
+	font-size: 24px;
 	font-weight:bolder;
 	letter-spacing: 0.05em;
 
@@ -56,7 +56,7 @@ ol {
 }
 #stepsdetail {
 	font-family: 'Merriweather', serif;
-	font-size: 24px;
+	font-size: 26px;
 	line-height: 1.5em;
 	margin: 2em;
 	color: black;
