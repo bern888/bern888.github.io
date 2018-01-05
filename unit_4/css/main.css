@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Limelight|Itim|Crimson+Text|);
+@import url(https://fonts.googleapis.com/css?family=Limelight|Barlow+Condensed|Merriweather|Crimson+Text|);
 img {
 	width:300px;
 } /* delete this once you start sizing your images */
 header {
-	background: #93D6D0;
+	background: #000000;
 }
 header img {
 	width: 1em;
@@ -27,17 +27,18 @@ a{
 	text-decoration: none;
 }
 h2{
-	font-family:'Itim', serif;
-	font-size: 26px;
+	font-family:'Barlow Condensed', serif;
+	font-size: 28px;
 	font-weight:bolder;
 	letter-spacing: 0.05em;
+
 
 }
 #tagline {font-family: 'Limelight', cursive;
 	font-weight: bold;
-	font-size: 28px;
+	font-size: 20 spx;
 	letter-spacing: 0.08em;}
-#nav {
+.choices {
 	text-transform: capitalize; 
 }
 h3{
@@ -54,7 +55,7 @@ ol {
 	font-style: italic
 }
 #stepsdetail {
-	font-family: 'Itim', serif;
+	font-family: 'Merriweather', serif;
 	font-size: 24px;
 	line-height: 1.5em;
 	margin: 2em;
@@ -67,7 +68,7 @@ p{
 	font-size: 24px;
 	line-height: 1.5em;
 	margin: 2em;
-	color: black;
+	color: #555759;
 
 }
 i {
@@ -81,7 +82,7 @@ i {
     -webkit-transform: rotate(-135deg);
 }
 #intro {
-	background:url(../images/background_artwork_test1.png);
+	background:url(../images/background_artwork_test2.jpg);
 	background-size:cover;
 	background-repeat: no-repeat;
 	height: 90vh;
