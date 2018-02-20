@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Limelight|Barlow+Condensed|Merriweather|Crimson+Text|);
+img {
+	width:300px;
+} /* delete this once you start sizing your images */
+header {
+	background: #000000;
+}
+header img {
+	width: 1em;
+	display: inline-block;
+	vertical-align: bottom;
+}
+section {
+	padding:0em 0;
+}
+#signin {
+	color: #FFFFFF;
+}
+h1{
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: 'Limelight', cursive;
+	font-weight: 900;
+	letter-spacing: 0.0625em;
+}
+a{
+	text-decoration: none;
+}
+h2{
+	font-family:'Barlow Condensed', serif;
+	font-size: 24px;
+	font-weight:bolder;
+	letter-spacing: 0.05em;
+
+
+}
+#tagline {font-family: 'Limelight', cursive;
+	font-weight: bold;
+	font-size: 20 spx;
+	letter-spacing: 0.08em;}
+.choices {
+	text-transform: capitalize; 
+}
+h3{
+	font-family: 'LimeLight', cursive;
+	font-weight: bold;
+	font-size: 28px;
+	letter-spacing: 0.08em;
+
+}
+ol {
+	padding-left:1.25em;
+}
+#steps {
+	font-style: italic
+}
+#stepsdetail {
+	font-family: 'Merriweather', serif;
+	font-size: 26px;
+	line-height: 1.5em;
+	margin: 2em;
+	color: black;
+	font-weight: bolder;
+	font-style:italic;
+}
+p{
+	font-family: 'Crimson Text', serif;
+	font-size: 24px;
+	line-height: 1.5em;
+	margin: 2em;
+	color: #555759;
+
+}
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+#intro {
+	background:url(../images/background_artwork_test2.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 90vh;
+	position: relative;
+}
